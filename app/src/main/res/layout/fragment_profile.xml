@@ -27,4 +27,12 @@
         app:layout_constraintTop_toTopOf="@+id/OneBtnTwo" />
 
 
+    <CheckBox
+        android:id="@+id/CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/OneBtnTwo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/OneBtnTwo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
